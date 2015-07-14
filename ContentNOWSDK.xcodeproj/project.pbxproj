@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9FE8516C1B2609A800BF1278 /* ContentNOWSDK-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9FE8516D1B2609A800BF1278 /* Build configuration list for PBXAggregateTarget "ContentNOWSDK-Universal" */;
+			buildPhases = (
+				9FE851701B260A6700BF1278 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ContentNOWSDK-Universal";
+			productName = "ContentNOWSDK-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9FE850DA1B2603A300BF1278 /* ContentNOWSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850D91B2603A300BF1278 /* ContentNOWSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE850E01B2603A300BF1278 /* ContentNOWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE850D41B2603A300BF1278 /* ContentNOWSDK.framework */; };
+		9FE850E71B2603A300BF1278 /* ContentNOWSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850E61B2603A300BF1278 /* ContentNOWSDKTests.m */; };
+		9FE8512E1B26040F00BF1278 /* CNNutritionInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850F01B26040F00BF1278 /* CNNutritionInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8512F1B26040F00BF1278 /* CNNutritionInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850F11B26040F00BF1278 /* CNNutritionInfoView.m */; };
+		9FE851301B26040F00BF1278 /* CNRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850F21B26040F00BF1278 /* CNRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851311B26040F00BF1278 /* CNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850F31B26040F00BF1278 /* CNRequest.m */; };
+		9FE851321B26040F00BF1278 /* ContentNOW.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850F41B26040F00BF1278 /* ContentNOW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851331B26040F00BF1278 /* ContentNOW.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850F51B26040F00BF1278 /* ContentNOW.m */; };
+		9FE851341B26040F00BF1278 /* OWSAdditive.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850F61B26040F00BF1278 /* OWSAdditive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851351B26040F00BF1278 /* OWSAdditive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850F71B26040F00BF1278 /* OWSAdditive.m */; };
+		9FE851361B26040F00BF1278 /* OWSAllergenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850F81B26040F00BF1278 /* OWSAllergenInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851371B26040F00BF1278 /* OWSAllergenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850F91B26040F00BF1278 /* OWSAllergenInfo.m */; };
+		9FE851381B26040F00BF1278 /* OWSCodeMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850FA1B26040F00BF1278 /* OWSCodeMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851391B26040F00BF1278 /* OWSCodeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850FB1B26040F00BF1278 /* OWSCodeMapping.m */; };
+		9FE8513A1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850FC1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8513B1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850FD1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.m */; };
+		9FE8513C1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE850FE1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8513D1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE850FF1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.m */; };
+		9FE8513E1B26040F00BF1278 /* OWSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851001B26040F00BF1278 /* OWSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8513F1B26040F00BF1278 /* OWSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851011B26040F00BF1278 /* OWSImage.m */; };
+		9FE851401B26040F00BF1278 /* OWSInformationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851021B26040F00BF1278 /* OWSInformationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851411B26040F00BF1278 /* OWSInformationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851031B26040F00BF1278 /* OWSInformationProvider.m */; };
+		9FE851421B26040F00BF1278 /* OWSIngredient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851041B26040F00BF1278 /* OWSIngredient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851431B26040F00BF1278 /* OWSIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851051B26040F00BF1278 /* OWSIngredient.m */; };
+		9FE851441B26040F00BF1278 /* OWSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851061B26040F00BF1278 /* OWSItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851451B26040F00BF1278 /* OWSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851071B26040F00BF1278 /* OWSItem.m */; };
+		9FE851461B26040F00BF1278 /* OWSItemDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851081B26040F00BF1278 /* OWSItemDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851471B26040F00BF1278 /* OWSItemDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851091B26040F00BF1278 /* OWSItemDefinition.m */; };
+		9FE851481B26040F00BF1278 /* OWSItemDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8510A1B26040F00BF1278 /* OWSItemDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851491B26040F00BF1278 /* OWSItemDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8510B1B26040F00BF1278 /* OWSItemDefinitions.m */; };
+		9FE8514A1B26040F00BF1278 /* OWSItemIdentificationInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8510C1B26040F00BF1278 /* OWSItemIdentificationInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8514B1B26040F00BF1278 /* OWSItemIdentificationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8510D1B26040F00BF1278 /* OWSItemIdentificationInformation.m */; };
+		9FE8514C1B26040F00BF1278 /* OWSItemIdInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8510E1B26040F00BF1278 /* OWSItemIdInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8514D1B26040F00BF1278 /* OWSItemIdInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8510F1B26040F00BF1278 /* OWSItemIdInformation.m */; };
+		9FE8514E1B26040F00BF1278 /* OWSItemReferenceIdInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851101B26040F00BF1278 /* OWSItemReferenceIdInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8514F1B26040F00BF1278 /* OWSItemReferenceIdInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851111B26040F00BF1278 /* OWSItemReferenceIdInformation.m */; };
+		9FE851501B26040F00BF1278 /* OWSItemValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851121B26040F00BF1278 /* OWSItemValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851511B26040F00BF1278 /* OWSItemValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851131B26040F00BF1278 /* OWSItemValue.m */; };
+		9FE851521B26040F00BF1278 /* OWSLanguageDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851141B26040F00BF1278 /* OWSLanguageDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851531B26040F00BF1278 /* OWSLanguageDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851151B26040F00BF1278 /* OWSLanguageDefinition.m */; };
+		9FE851541B26040F00BF1278 /* OWSLanguageValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851161B26040F00BF1278 /* OWSLanguageValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851551B26040F00BF1278 /* OWSLanguageValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851171B26040F00BF1278 /* OWSLanguageValue.m */; };
+		9FE851561B26040F00BF1278 /* OWSMultipleValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851181B26040F00BF1278 /* OWSMultipleValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851571B26040F00BF1278 /* OWSMultipleValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851191B26040F00BF1278 /* OWSMultipleValues.m */; };
+		9FE851581B26040F00BF1278 /* OWSNetContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8511A1B26040F00BF1278 /* OWSNetContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851591B26040F00BF1278 /* OWSNetContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8511B1B26040F00BF1278 /* OWSNetContent.m */; };
+		9FE8515A1B26040F00BF1278 /* OWSNutrient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8511C1B26040F00BF1278 /* OWSNutrient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8515B1B26040F00BF1278 /* OWSNutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8511D1B26040F00BF1278 /* OWSNutrient.m */; };
+		9FE8515C1B26040F00BF1278 /* OWSObjectDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8511E1B26040F00BF1278 /* OWSObjectDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8515D1B26040F00BF1278 /* OWSObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8511F1B26040F00BF1278 /* OWSObjectDescription.m */; };
+		9FE8515E1B26040F00BF1278 /* OWSOfficeComponentInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851201B26040F00BF1278 /* OWSOfficeComponentInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8515F1B26040F00BF1278 /* OWSOfficeComponentInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851211B26040F00BF1278 /* OWSOfficeComponentInformation.m */; };
+		9FE851601B26040F00BF1278 /* OWSProductCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851221B26040F00BF1278 /* OWSProductCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851611B26040F00BF1278 /* OWSProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851231B26040F00BF1278 /* OWSProductCategory.m */; };
+		9FE851621B26040F00BF1278 /* OWSQualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851241B26040F00BF1278 /* OWSQualValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851631B26040F00BF1278 /* OWSQualValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851251B26040F00BF1278 /* OWSQualValue.m */; };
+		9FE851641B26040F00BF1278 /* OWSRKDynamicMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851261B26040F00BF1278 /* OWSRKDynamicMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851651B26040F00BF1278 /* OWSRKDynamicMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851271B26040F00BF1278 /* OWSRKDynamicMapping.m */; };
+		9FE851661B26040F00BF1278 /* OWSSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE851281B26040F00BF1278 /* OWSSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851671B26040F00BF1278 /* OWSSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE851291B26040F00BF1278 /* OWSSearchResult.m */; };
+		9FE851681B26040F00BF1278 /* OWSValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8512A1B26040F00BF1278 /* OWSValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE851691B26040F00BF1278 /* OWSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8512B1B26040F00BF1278 /* OWSValue.m */; };
+		9FE8516A1B26040F00BF1278 /* OWSValuesObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE8512C1B26040F00BF1278 /* OWSValuesObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8516B1B26040F00BF1278 /* OWSValuesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8512D1B26040F00BF1278 /* OWSValuesObject.m */; };
+		FB0431C390FF3723B07D638C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A410F07A023182616F3A4528 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE850E11B2603A300BF1278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE850CB1B2603A300BF1278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE850D31B2603A300BF1278;
+			remoteInfo = ContentNOWSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20164BE37F976122002D0FE9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9FE850D41B2603A300BF1278 /* ContentNOWSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentNOWSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE850D81B2603A300BF1278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE850D91B2603A300BF1278 /* ContentNOWSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentNOWSDK.h; sourceTree = "<group>"; };
+		9FE850DF1B2603A300BF1278 /* ContentNOWSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentNOWSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE850E51B2603A300BF1278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE850E61B2603A300BF1278 /* ContentNOWSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentNOWSDKTests.m; sourceTree = "<group>"; };
+		9FE850F01B26040F00BF1278 /* CNNutritionInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNutritionInfoView.h; sourceTree = "<group>"; };
+		9FE850F11B26040F00BF1278 /* CNNutritionInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNutritionInfoView.m; sourceTree = "<group>"; };
+		9FE850F21B26040F00BF1278 /* CNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRequest.h; sourceTree = "<group>"; };
+		9FE850F31B26040F00BF1278 /* CNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRequest.m; sourceTree = "<group>"; };
+		9FE850F41B26040F00BF1278 /* ContentNOW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentNOW.h; sourceTree = "<group>"; };
+		9FE850F51B26040F00BF1278 /* ContentNOW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentNOW.m; sourceTree = "<group>"; };
+		9FE850F61B26040F00BF1278 /* OWSAdditive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSAdditive.h; sourceTree = "<group>"; };
+		9FE850F71B26040F00BF1278 /* OWSAdditive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSAdditive.m; sourceTree = "<group>"; };
+		9FE850F81B26040F00BF1278 /* OWSAllergenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSAllergenInfo.h; sourceTree = "<group>"; };
+		9FE850F91B26040F00BF1278 /* OWSAllergenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSAllergenInfo.m; sourceTree = "<group>"; };
+		9FE850FA1B26040F00BF1278 /* OWSCodeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSCodeMapping.h; sourceTree = "<group>"; };
+		9FE850FB1B26040F00BF1278 /* OWSCodeMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSCodeMapping.m; sourceTree = "<group>"; };
+		9FE850FC1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSFoodAndBeverageMarketingInformation.h; sourceTree = "<group>"; };
+		9FE850FD1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSFoodAndBeverageMarketingInformation.m; sourceTree = "<group>"; };
+		9FE850FE1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSFoodBeverageNutrientInfo.h; sourceTree = "<group>"; };
+		9FE850FF1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSFoodBeverageNutrientInfo.m; sourceTree = "<group>"; };
+		9FE851001B26040F00BF1278 /* OWSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSImage.h; sourceTree = "<group>"; };
+		9FE851011B26040F00BF1278 /* OWSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSImage.m; sourceTree = "<group>"; };
+		9FE851021B26040F00BF1278 /* OWSInformationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSInformationProvider.h; sourceTree = "<group>"; };
+		9FE851031B26040F00BF1278 /* OWSInformationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSInformationProvider.m; sourceTree = "<group>"; };
+		9FE851041B26040F00BF1278 /* OWSIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSIngredient.h; sourceTree = "<group>"; };
+		9FE851051B26040F00BF1278 /* OWSIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSIngredient.m; sourceTree = "<group>"; };
+		9FE851061B26040F00BF1278 /* OWSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItem.h; sourceTree = "<group>"; };
+		9FE851071B26040F00BF1278 /* OWSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItem.m; sourceTree = "<group>"; };
+		9FE851081B26040F00BF1278 /* OWSItemDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemDefinition.h; sourceTree = "<group>"; };
+		9FE851091B26040F00BF1278 /* OWSItemDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemDefinition.m; sourceTree = "<group>"; };
+		9FE8510A1B26040F00BF1278 /* OWSItemDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemDefinitions.h; sourceTree = "<group>"; };
+		9FE8510B1B26040F00BF1278 /* OWSItemDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemDefinitions.m; sourceTree = "<group>"; };
+		9FE8510C1B26040F00BF1278 /* OWSItemIdentificationInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemIdentificationInformation.h; sourceTree = "<group>"; };
+		9FE8510D1B26040F00BF1278 /* OWSItemIdentificationInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemIdentificationInformation.m; sourceTree = "<group>"; };
+		9FE8510E1B26040F00BF1278 /* OWSItemIdInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemIdInformation.h; sourceTree = "<group>"; };
+		9FE8510F1B26040F00BF1278 /* OWSItemIdInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemIdInformation.m; sourceTree = "<group>"; };
+		9FE851101B26040F00BF1278 /* OWSItemReferenceIdInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemReferenceIdInformation.h; sourceTree = "<group>"; };
+		9FE851111B26040F00BF1278 /* OWSItemReferenceIdInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemReferenceIdInformation.m; sourceTree = "<group>"; };
+		9FE851121B26040F00BF1278 /* OWSItemValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSItemValue.h; sourceTree = "<group>"; };
+		9FE851131B26040F00BF1278 /* OWSItemValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSItemValue.m; sourceTree = "<group>"; };
+		9FE851141B26040F00BF1278 /* OWSLanguageDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSLanguageDefinition.h; sourceTree = "<group>"; };
+		9FE851151B26040F00BF1278 /* OWSLanguageDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSLanguageDefinition.m; sourceTree = "<group>"; };
+		9FE851161B26040F00BF1278 /* OWSLanguageValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSLanguageValue.h; sourceTree = "<group>"; };
+		9FE851171B26040F00BF1278 /* OWSLanguageValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSLanguageValue.m; sourceTree = "<group>"; };
+		9FE851181B26040F00BF1278 /* OWSMultipleValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSMultipleValues.h; sourceTree = "<group>"; };
+		9FE851191B26040F00BF1278 /* OWSMultipleValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSMultipleValues.m; sourceTree = "<group>"; };
+		9FE8511A1B26040F00BF1278 /* OWSNetContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSNetContent.h; sourceTree = "<group>"; };
+		9FE8511B1B26040F00BF1278 /* OWSNetContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSNetContent.m; sourceTree = "<group>"; };
+		9FE8511C1B26040F00BF1278 /* OWSNutrient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSNutrient.h; sourceTree = "<group>"; };
+		9FE8511D1B26040F00BF1278 /* OWSNutrient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSNutrient.m; sourceTree = "<group>"; };
+		9FE8511E1B26040F00BF1278 /* OWSObjectDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSObjectDescription.h; sourceTree = "<group>"; };
+		9FE8511F1B26040F00BF1278 /* OWSObjectDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSObjectDescription.m; sourceTree = "<group>"; };
+		9FE851201B26040F00BF1278 /* OWSOfficeComponentInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSOfficeComponentInformation.h; sourceTree = "<group>"; };
+		9FE851211B26040F00BF1278 /* OWSOfficeComponentInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSOfficeComponentInformation.m; sourceTree = "<group>"; };
+		9FE851221B26040F00BF1278 /* OWSProductCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSProductCategory.h; sourceTree = "<group>"; };
+		9FE851231B26040F00BF1278 /* OWSProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSProductCategory.m; sourceTree = "<group>"; };
+		9FE851241B26040F00BF1278 /* OWSQualValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSQualValue.h; sourceTree = "<group>"; };
+		9FE851251B26040F00BF1278 /* OWSQualValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSQualValue.m; sourceTree = "<group>"; };
+		9FE851261B26040F00BF1278 /* OWSRKDynamicMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSRKDynamicMapping.h; sourceTree = "<group>"; };
+		9FE851271B26040F00BF1278 /* OWSRKDynamicMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSRKDynamicMapping.m; sourceTree = "<group>"; };
+		9FE851281B26040F00BF1278 /* OWSSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSSearchResult.h; sourceTree = "<group>"; };
+		9FE851291B26040F00BF1278 /* OWSSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSSearchResult.m; sourceTree = "<group>"; };
+		9FE8512A1B26040F00BF1278 /* OWSValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSValue.h; sourceTree = "<group>"; };
+		9FE8512B1B26040F00BF1278 /* OWSValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSValue.m; sourceTree = "<group>"; };
+		9FE8512C1B26040F00BF1278 /* OWSValuesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSValuesObject.h; sourceTree = "<group>"; };
+		9FE8512D1B26040F00BF1278 /* OWSValuesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSValuesObject.m; sourceTree = "<group>"; };
+		9FE851F71B28C86700BF1278 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		9FE851F81B28C86700BF1278 /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RestKit.a"; path = "Pods/build/Debug-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		9FE851F91B28C86700BF1278 /* libPods-SOCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SOCKit.a"; path = "Pods/build/Debug-iphoneos/libPods-SOCKit.a"; sourceTree = "<group>"; };
+		9FE851FA1B28C86700BF1278 /* libPods-TransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TransitionKit.a"; path = "Pods/build/Debug-iphoneos/libPods-TransitionKit.a"; sourceTree = "<group>"; };
+		A410F07A023182616F3A4528 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F484E45818F9504BA2AAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE850D01B2603A300BF1278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0431C390FF3723B07D638C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE850DC1B2603A300BF1278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE850E01B2603A300BF1278 /* ContentNOWSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D4EE90022F47D56A8BD1B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FE851F71B28C86700BF1278 /* libPods-AFNetworking.a */,
+				9FE851F81B28C86700BF1278 /* libPods-RestKit.a */,
+				9FE851F91B28C86700BF1278 /* libPods-SOCKit.a */,
+				9FE851FA1B28C86700BF1278 /* libPods-TransitionKit.a */,
+				A410F07A023182616F3A4528 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FE850CA1B2603A300BF1278 = {
+			isa = PBXGroup;
+			children = (
+				9FE850D61B2603A300BF1278 /* ContentNOWSDK */,
+				9FE850E31B2603A300BF1278 /* ContentNOWSDKTests */,
+				9FE850D51B2603A300BF1278 /* Products */,
+				BDC3F67A18F993C36FF5B795 /* Pods */,
+				57D4EE90022F47D56A8BD1B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE850D51B2603A300BF1278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE850D41B2603A300BF1278 /* ContentNOWSDK.framework */,
+				9FE850DF1B2603A300BF1278 /* ContentNOWSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE850D61B2603A300BF1278 /* ContentNOWSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9FE850F01B26040F00BF1278 /* CNNutritionInfoView.h */,
+				9FE850F11B26040F00BF1278 /* CNNutritionInfoView.m */,
+				9FE850F21B26040F00BF1278 /* CNRequest.h */,
+				9FE850F31B26040F00BF1278 /* CNRequest.m */,
+				9FE850F41B26040F00BF1278 /* ContentNOW.h */,
+				9FE850F51B26040F00BF1278 /* ContentNOW.m */,
+				9FE850F61B26040F00BF1278 /* OWSAdditive.h */,
+				9FE850F71B26040F00BF1278 /* OWSAdditive.m */,
+				9FE850F81B26040F00BF1278 /* OWSAllergenInfo.h */,
+				9FE850F91B26040F00BF1278 /* OWSAllergenInfo.m */,
+				9FE850FA1B26040F00BF1278 /* OWSCodeMapping.h */,
+				9FE850FB1B26040F00BF1278 /* OWSCodeMapping.m */,
+				9FE850FC1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.h */,
+				9FE850FD1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.m */,
+				9FE850FE1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.h */,
+				9FE850FF1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.m */,
+				9FE851001B26040F00BF1278 /* OWSImage.h */,
+				9FE851011B26040F00BF1278 /* OWSImage.m */,
+				9FE851021B26040F00BF1278 /* OWSInformationProvider.h */,
+				9FE851031B26040F00BF1278 /* OWSInformationProvider.m */,
+				9FE851041B26040F00BF1278 /* OWSIngredient.h */,
+				9FE851051B26040F00BF1278 /* OWSIngredient.m */,
+				9FE851061B26040F00BF1278 /* OWSItem.h */,
+				9FE851071B26040F00BF1278 /* OWSItem.m */,
+				9FE851081B26040F00BF1278 /* OWSItemDefinition.h */,
+				9FE851091B26040F00BF1278 /* OWSItemDefinition.m */,
+				9FE8510A1B26040F00BF1278 /* OWSItemDefinitions.h */,
+				9FE8510B1B26040F00BF1278 /* OWSItemDefinitions.m */,
+				9FE8510C1B26040F00BF1278 /* OWSItemIdentificationInformation.h */,
+				9FE8510D1B26040F00BF1278 /* OWSItemIdentificationInformation.m */,
+				9FE8510E1B26040F00BF1278 /* OWSItemIdInformation.h */,
+				9FE8510F1B26040F00BF1278 /* OWSItemIdInformation.m */,
+				9FE851101B26040F00BF1278 /* OWSItemReferenceIdInformation.h */,
+				9FE851111B26040F00BF1278 /* OWSItemReferenceIdInformation.m */,
+				9FE851121B26040F00BF1278 /* OWSItemValue.h */,
+				9FE851131B26040F00BF1278 /* OWSItemValue.m */,
+				9FE851141B26040F00BF1278 /* OWSLanguageDefinition.h */,
+				9FE851151B26040F00BF1278 /* OWSLanguageDefinition.m */,
+				9FE851161B26040F00BF1278 /* OWSLanguageValue.h */,
+				9FE851171B26040F00BF1278 /* OWSLanguageValue.m */,
+				9FE851181B26040F00BF1278 /* OWSMultipleValues.h */,
+				9FE851191B26040F00BF1278 /* OWSMultipleValues.m */,
+				9FE8511A1B26040F00BF1278 /* OWSNetContent.h */,
+				9FE8511B1B26040F00BF1278 /* OWSNetContent.m */,
+				9FE8511C1B26040F00BF1278 /* OWSNutrient.h */,
+				9FE8511D1B26040F00BF1278 /* OWSNutrient.m */,
+				9FE8511E1B26040F00BF1278 /* OWSObjectDescription.h */,
+				9FE8511F1B26040F00BF1278 /* OWSObjectDescription.m */,
+				9FE851201B26040F00BF1278 /* OWSOfficeComponentInformation.h */,
+				9FE851211B26040F00BF1278 /* OWSOfficeComponentInformation.m */,
+				9FE851221B26040F00BF1278 /* OWSProductCategory.h */,
+				9FE851231B26040F00BF1278 /* OWSProductCategory.m */,
+				9FE851241B26040F00BF1278 /* OWSQualValue.h */,
+				9FE851251B26040F00BF1278 /* OWSQualValue.m */,
+				9FE851261B26040F00BF1278 /* OWSRKDynamicMapping.h */,
+				9FE851271B26040F00BF1278 /* OWSRKDynamicMapping.m */,
+				9FE851281B26040F00BF1278 /* OWSSearchResult.h */,
+				9FE851291B26040F00BF1278 /* OWSSearchResult.m */,
+				9FE8512A1B26040F00BF1278 /* OWSValue.h */,
+				9FE8512B1B26040F00BF1278 /* OWSValue.m */,
+				9FE8512C1B26040F00BF1278 /* OWSValuesObject.h */,
+				9FE8512D1B26040F00BF1278 /* OWSValuesObject.m */,
+				9FE850D91B2603A300BF1278 /* ContentNOWSDK.h */,
+				9FE850D71B2603A300BF1278 /* Supporting Files */,
+			);
+			path = ContentNOWSDK;
+			sourceTree = "<group>";
+		};
+		9FE850D71B2603A300BF1278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE850D81B2603A300BF1278 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE850E31B2603A300BF1278 /* ContentNOWSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE850E61B2603A300BF1278 /* ContentNOWSDKTests.m */,
+				9FE850E41B2603A300BF1278 /* Supporting Files */,
+			);
+			path = ContentNOWSDKTests;
+			sourceTree = "<group>";
+		};
+		9FE850E41B2603A300BF1278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE850E51B2603A300BF1278 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDC3F67A18F993C36FF5B795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C22F484E45818F9504BA2AAC /* Pods.debug.xcconfig */,
+				20164BE37F976122002D0FE9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FE850D11B2603A300BF1278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8514E1B26040F00BF1278 /* OWSItemReferenceIdInformation.h in Headers */,
+				9FE8514A1B26040F00BF1278 /* OWSItemIdentificationInformation.h in Headers */,
+				9FE851581B26040F00BF1278 /* OWSNetContent.h in Headers */,
+				9FE851541B26040F00BF1278 /* OWSLanguageValue.h in Headers */,
+				9FE851321B26040F00BF1278 /* ContentNOW.h in Headers */,
+				9FE851601B26040F00BF1278 /* OWSProductCategory.h in Headers */,
+				9FE8516A1B26040F00BF1278 /* OWSValuesObject.h in Headers */,
+				9FE8514C1B26040F00BF1278 /* OWSItemIdInformation.h in Headers */,
+				9FE851381B26040F00BF1278 /* OWSCodeMapping.h in Headers */,
+				9FE851661B26040F00BF1278 /* OWSSearchResult.h in Headers */,
+				9FE851421B26040F00BF1278 /* OWSIngredient.h in Headers */,
+				9FE8513C1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.h in Headers */,
+				9FE8513E1B26040F00BF1278 /* OWSImage.h in Headers */,
+				9FE851561B26040F00BF1278 /* OWSMultipleValues.h in Headers */,
+				9FE851621B26040F00BF1278 /* OWSQualValue.h in Headers */,
+				9FE8515C1B26040F00BF1278 /* OWSObjectDescription.h in Headers */,
+				9FE8513A1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.h in Headers */,
+				9FE8515A1B26040F00BF1278 /* OWSNutrient.h in Headers */,
+				9FE8515E1B26040F00BF1278 /* OWSOfficeComponentInformation.h in Headers */,
+				9FE851681B26040F00BF1278 /* OWSValue.h in Headers */,
+				9FE851441B26040F00BF1278 /* OWSItem.h in Headers */,
+				9FE851521B26040F00BF1278 /* OWSLanguageDefinition.h in Headers */,
+				9FE851501B26040F00BF1278 /* OWSItemValue.h in Headers */,
+				9FE851461B26040F00BF1278 /* OWSItemDefinition.h in Headers */,
+				9FE851361B26040F00BF1278 /* OWSAllergenInfo.h in Headers */,
+				9FE851341B26040F00BF1278 /* OWSAdditive.h in Headers */,
+				9FE851301B26040F00BF1278 /* CNRequest.h in Headers */,
+				9FE8512E1B26040F00BF1278 /* CNNutritionInfoView.h in Headers */,
+				9FE851401B26040F00BF1278 /* OWSInformationProvider.h in Headers */,
+				9FE851481B26040F00BF1278 /* OWSItemDefinitions.h in Headers */,
+				9FE850DA1B2603A300BF1278 /* ContentNOWSDK.h in Headers */,
+				9FE851641B26040F00BF1278 /* OWSRKDynamicMapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9FE850D31B2603A300BF1278 /* ContentNOWSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE850EA1B2603A300BF1278 /* Build configuration list for PBXNativeTarget "ContentNOWSDK" */;
+			buildPhases = (
+				53C5C729B4D119FAD99BBA70 /* Check Pods Manifest.lock */,
+				9FE850CF1B2603A300BF1278 /* Sources */,
+				9FE850D01B2603A300BF1278 /* Frameworks */,
+				9FE850D11B2603A300BF1278 /* Headers */,
+				9FE850D21B2603A300BF1278 /* Resources */,
+				A2EB052C661F410AD55E0BDE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentNOWSDK;
+			productName = ContentNOWSDK;
+			productReference = 9FE850D41B2603A300BF1278 /* ContentNOWSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FE850DE1B2603A300BF1278 /* ContentNOWSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE850ED1B2603A300BF1278 /* Build configuration list for PBXNativeTarget "ContentNOWSDKTests" */;
+			buildPhases = (
+				9FE850DB1B2603A300BF1278 /* Sources */,
+				9FE850DC1B2603A300BF1278 /* Frameworks */,
+				9FE850DD1B2603A300BF1278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE850E21B2603A300BF1278 /* PBXTargetDependency */,
+			);
+			name = ContentNOWSDKTests;
+			productName = ContentNOWSDKTests;
+			productReference = 9FE850DF1B2603A300BF1278 /* ContentNOWSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE850CB1B2603A300BF1278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ted Dickinson";
+				TargetAttributes = {
+					9FE850D31B2603A300BF1278 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9FE850DE1B2603A300BF1278 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9FE8516C1B2609A800BF1278 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FE850CE1B2603A300BF1278 /* Build configuration list for PBXProject "ContentNOWSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FE850CA1B2603A300BF1278;
+			productRefGroup = 9FE850D51B2603A300BF1278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE850D31B2603A300BF1278 /* ContentNOWSDK */,
+				9FE850DE1B2603A300BF1278 /* ContentNOWSDKTests */,
+				9FE8516C1B2609A800BF1278 /* ContentNOWSDK-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE850D21B2603A300BF1278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE850DD1B2603A300BF1278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C5C729B4D119FAD99BBA70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE851701B260A6700BF1278 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n# For Swift framework, Swiftmodule needs to be copied in the universal framework\nif [ -d \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -f ${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      if [ -d \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\n                                                                      cp -f ${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      ######################\n                                                                      # On Release, copy the result to release directory\n                                                                      ######################\n                                                                      OUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n                                                                      \n                                                                      rm -rf \"$OUTPUT_DIR\"\n                                                                      mkdir -p \"$OUTPUT_DIR\"\n                                                                      \n                                                                      cp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n                                                                      \n                                                                      if [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\n                                                                      open \"${OUTPUT_DIR}/\"\n                                                                      fi";
+		};
+		A2EB052C661F410AD55E0BDE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE850CF1B2603A300BF1278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE8515F1B26040F00BF1278 /* OWSOfficeComponentInformation.m in Sources */,
+				9FE851451B26040F00BF1278 /* OWSItem.m in Sources */,
+				9FE851311B26040F00BF1278 /* CNRequest.m in Sources */,
+				9FE851411B26040F00BF1278 /* OWSInformationProvider.m in Sources */,
+				9FE851371B26040F00BF1278 /* OWSAllergenInfo.m in Sources */,
+				9FE851431B26040F00BF1278 /* OWSIngredient.m in Sources */,
+				9FE8515D1B26040F00BF1278 /* OWSObjectDescription.m in Sources */,
+				9FE851571B26040F00BF1278 /* OWSMultipleValues.m in Sources */,
+				9FE851471B26040F00BF1278 /* OWSItemDefinition.m in Sources */,
+				9FE851691B26040F00BF1278 /* OWSValue.m in Sources */,
+				9FE851591B26040F00BF1278 /* OWSNetContent.m in Sources */,
+				9FE8513B1B26040F00BF1278 /* OWSFoodAndBeverageMarketingInformation.m in Sources */,
+				9FE851611B26040F00BF1278 /* OWSProductCategory.m in Sources */,
+				9FE8514F1B26040F00BF1278 /* OWSItemReferenceIdInformation.m in Sources */,
+				9FE851631B26040F00BF1278 /* OWSQualValue.m in Sources */,
+				9FE851491B26040F00BF1278 /* OWSItemDefinitions.m in Sources */,
+				9FE8512F1B26040F00BF1278 /* CNNutritionInfoView.m in Sources */,
+				9FE851331B26040F00BF1278 /* ContentNOW.m in Sources */,
+				9FE8516B1B26040F00BF1278 /* OWSValuesObject.m in Sources */,
+				9FE851351B26040F00BF1278 /* OWSAdditive.m in Sources */,
+				9FE851511B26040F00BF1278 /* OWSItemValue.m in Sources */,
+				9FE8513F1B26040F00BF1278 /* OWSImage.m in Sources */,
+				9FE8515B1B26040F00BF1278 /* OWSNutrient.m in Sources */,
+				9FE8514D1B26040F00BF1278 /* OWSItemIdInformation.m in Sources */,
+				9FE851551B26040F00BF1278 /* OWSLanguageValue.m in Sources */,
+				9FE851671B26040F00BF1278 /* OWSSearchResult.m in Sources */,
+				9FE851651B26040F00BF1278 /* OWSRKDynamicMapping.m in Sources */,
+				9FE851391B26040F00BF1278 /* OWSCodeMapping.m in Sources */,
+				9FE8514B1B26040F00BF1278 /* OWSItemIdentificationInformation.m in Sources */,
+				9FE851531B26040F00BF1278 /* OWSLanguageDefinition.m in Sources */,
+				9FE8513D1B26040F00BF1278 /* OWSFoodBeverageNutrientInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE850DB1B2603A300BF1278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE850E71B2603A300BF1278 /* ContentNOWSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FE850E21B2603A300BF1278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE850D31B2603A300BF1278 /* ContentNOWSDK */;
+			targetProxy = 9FE850E11B2603A300BF1278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FE850E81B2603A300BF1278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FE850E91B2603A300BF1278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FE850EB1B2603A300BF1278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22F484E45818F9504BA2AAC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ContentNOWSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9FE850EC1B2603A300BF1278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20164BE37F976122002D0FE9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ContentNOWSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9FE850EE1B2603A300BF1278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContentNOWSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE850EF1B2603A300BF1278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContentNOWSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FE8516E1B2609A800BF1278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE8516F1B2609A800BF1278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE850CE1B2603A300BF1278 /* Build configuration list for PBXProject "ContentNOWSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE850E81B2603A300BF1278 /* Debug */,
+				9FE850E91B2603A300BF1278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE850EA1B2603A300BF1278 /* Build configuration list for PBXNativeTarget "ContentNOWSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE850EB1B2603A300BF1278 /* Debug */,
+				9FE850EC1B2603A300BF1278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE850ED1B2603A300BF1278 /* Build configuration list for PBXNativeTarget "ContentNOWSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE850EE1B2603A300BF1278 /* Debug */,
+				9FE850EF1B2603A300BF1278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8516D1B2609A800BF1278 /* Build configuration list for PBXAggregateTarget "ContentNOWSDK-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8516E1B2609A800BF1278 /* Debug */,
+				9FE8516F1B2609A800BF1278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE850CB1B2603A300BF1278 /* Project object */;
+}

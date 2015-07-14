@@ -1,0 +1,6 @@
+framework module ContentNOWSDK {
+  umbrella header "ContentNOWSDK.h"
+
+  export *
+  module * { export * }
+}
